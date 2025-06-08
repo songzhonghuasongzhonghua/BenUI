@@ -1,0 +1,21 @@
+{
+  "name": "BenUI",
+  "version": "1.0.0",
+  "private":true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1",
+  "dependencies": {
+    "react": "^19.1.0",
+    "typescript": "^5.8.3",
+    "@song/components":"workspace:*",
+    "@song/utils":"workspace:*",
+    "@song/theme-chalk":"workspace:*"
+  }
+}

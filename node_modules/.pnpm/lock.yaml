@@ -1,0 +1,48 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@song/components':
+        specifier: workspace:*
+        version: link:packages/components
+      '@song/theme-chalk':
+        specifier: workspace:*
+        version: link:packages/theme-chalk
+      '@song/utils':
+        specifier: workspace:*
+        version: link:packages/utils
+      react:
+        specifier: ^19.1.0
+        version: 19.1.0
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
+  packages/components: {}
+
+  packages/theme-chalk: {}
+
+  packages/utils: {}
+
+packages:
+
+  react@19.1.0:
+    resolution: {integrity: sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg==}
+    engines: {node: '>=0.10.0'}
+
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  react@19.1.0: {}
+
+  typescript@5.8.3: {}
